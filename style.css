@@ -1,0 +1,151 @@
+@charset "utf-8";
+/* CSS Document */
+
+body {
+	background-attachment: fixed;
+	background-image: url(images/background.gif);
+	background-repeat: repeat;
+}
+
+#wrapper {
+	background-color: #FFF;
+	width: 770px;
+	margin-top: 10px;
+	margin-right: auto;
+	margin-bottom: 10px;
+	margin-left: auto;
+	height: 750px;
+}
+#wrapper #navigation {
+	font-family: Georgia, "Times New Roman", Times, serif;
+	font-size: 18px;
+	color: #000;
+	background-color: #FFF;
+	text-align: right;
+	float: left;
+	width: 120px;
+	padding-top: 10px;
+	padding-right: 10px;
+	padding-bottom: 10px;
+	padding-left: 10px;
+	list-style-type: none;
+}
+#wrapper #navigation ul {
+	font-family: Georgia, "Times New Roman", Times, serif;
+	font-size: 18px;
+	color: #000;
+	text-align: right;
+	list-style-type: none;
+	line-height: 130%;
+	margin: 0px;
+	padding: 0px;
+}
+a:link {
+	color: #000;
+	text-decoration: none;
+}
+a:visited {
+	color: #000;
+	text-decoration: none;
+}
+a:hover {
+	color: #6c0;
+	text-decoration: none;
+}
+a:active {
+	color: #90f;
+	text-decoration: underline;
+}
+#wrapper #maincontent {
+	font-family: Verdana, Geneva, sans-serif;
+	font-size: 12px;
+	color: #000;
+	background-color: #FFF;
+	float: right;
+	width: 610px;
+	padding-top: 10px;
+	padding-right: 10px;
+	padding-bottom: 10px;
+	padding-left: 10px;
+}
+#footer {
+	font-family: Verdana, Geneva, sans-serif;
+	font-size: 10px;
+	color: #000;
+	background-color: #FFF;
+	padding: 10px;
+	height: auto;
+	width: 750px;
+	margin-top: 10px;
+	margin-right: auto;
+	margin-bottom: 10px;
+	margin-left: auto;
+}
+h1 {
+	font-family: Georgia, "Times New Roman", Times, serif;
+	font-size: 24px;
+	color: #9901FF;
+	line-height: 60%;
+	font-weight: normal;
+	text-decoration: none;
+}
+#maincontent p {
+	font-family: Verdana, Geneva, sans-serif;
+	font-size: 12px;
+	line-height: 130%;
+}
+#wrapper #maincontent #blueberrycoffeecake {
+	padding-top: 5px;
+	padding-bottom: 0px;
+}
+h2 {
+	font-family: Georgia, "Times New Roman", Times, serif;
+	font-size: 18px;
+	color: #FF9901;
+	font-weight: normal;
+	text-decoration: none;
+}
+#blueberrycoffeecake {
+	position: absolute;
+	z-index: 1;
+	width: 590px;
+	visibility: hidden;
+}
+#blueberrywaffleswithmaplebacon {
+	width: 590px;
+	padding-top: 5px;
+	position: absolute;
+	background-color: #FFF;
+	visibility: hidden;
+}
+#blueberrycoffeecake {
+	background-color: #FFF;
+}
+#butterscotchblondies {
+	background-color: #FFF;
+	width: 590px;
+	padding-top: 5px;
+	position: absolute;
+	visibility: hidden;
+}
+#caramelmacadamiacake {
+	background-color: #FFF;
+	width: 590px;
+	padding-top: 5px;
+	position: absolute;
+	visibility: hidden;
+}
+#chocolatechipbananabread {
+	background-color: #FFF;
+	width: 590px;
+	padding-top: 5px;
+	position: absolute;
+	visibility: hidden;
+}
+#lemoncreamcheesecake {
+	background-color: #FFF;
+	width: 590px;
+	padding-top: 5px;
+	position: absolute;
+	visibility: hidden;
+}
